@@ -1,0 +1,201 @@
+body{
+    scroll-behavior: smooth;
+}
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+  
+}
+.navbar{
+    background-color: #fff !important;
+}
+.active1:hover{
+
+    border-bottom: 1px solid #cc2828;
+}
+.navbar-brand{
+
+      margin: 0px 19px 0px 19px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-brand img{
+    width: 6%;
+    height: 6%;
+}
+.nav-item{
+    margin: 0px 19px 0px 19px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-nav{
+    position: sticky;
+    top:0%;
+}
+
+
+
+
+img{
+  height: 450px;
+  z-index: -1;
+  opacity: 0.8;
+}
+.carousel-caption{
+   
+   z-index: 1;
+    margin-bottom: 100px;
+   justify-content: center;
+   align-items: center;
+}
+.carousel-caption h1{
+    margin: 4px 4px  44px 4px !important;
+    font-size: 100px;
+    font-weight: 400 !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.carousel-caption a{
+    border-radius: 10%;
+    padding: 13px 33px 13px 33px;
+    margin-bottom: 400px;
+
+    text-decoration: none;
+    background-color: rgb(5, 5, 5) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo{
+    margin-top: 23px;
+    margin-bottom: 23px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+
+
+.icon1{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 3px;
+    color: rgb(201, 72, 12);
+    animation: up-down 2s ease-in-out infinite alternate-reverse both ;
+    margin-bottom: 19px;
+}
+.icon2{
+    color: white;
+    margin-left: 32px;
+}
+
+
+
+
+
+
+
+.footer{
+    margin-top: 32px;
+    width: 100%;
+    padding: 19px 19px 19px 19px;
+    background-color: black;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    
+
+    
+}
+.footer p{
+
+      width: 800px;
+    justify-content: center;
+    align-items: center;
+    text-align:justify;
+    color: white;
+
+}
+
+.footer img{
+    
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 33px;
+
+}
+@-webkit-keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+@keyframes up-down{
+    0%{
+           transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    
+    }
+}
+@media screen and (max-width: 640px) {
+ .card1 >p{
+     text-align: justify;
+ }
+ .right{
+     width: 70%;
+     
+     justify-content: center;
+     align-items: center;
+     text-align: justify;
+ }
+ .footer p{
+     width: 300px;
+ }
+ .carousel-caption h1{
+   
+    font-size: 50px;
+    font-weight: 400 !important;
+    
+}
